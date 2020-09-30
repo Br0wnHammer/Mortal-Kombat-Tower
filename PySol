@@ -1,0 +1,8 @@
+def fun(x):
+  s='1 1'
+  s+=x
+  return s.count('1 1 1')
+y122=int(input().split())
+for __ in range(y122):
+    n=int(input().split())
+    print(fun(n))
